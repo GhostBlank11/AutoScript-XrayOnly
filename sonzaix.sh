@@ -5,7 +5,7 @@ get_vps_ip() {
 
 check_ip_permission() {
     VPS_IP=$(get_vps_ip)
-    ACCESS_URL="https://raw.githubusercontent.com/GhostBlank11/AutoScript-XrayOnly/main/access"
+    ACCESS_URL="https://raw.githubusercontent.com/GhostBlank11/AutoScript-XrayOnly/refs/heads/main/access"
 
     echo "Mengecek izin untuk ip $VPS_IP"
 	sleep 2
